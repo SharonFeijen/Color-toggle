@@ -1,0 +1,77 @@
+body {
+  background-color: lightgrey;
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 0;
+}
+
+.toggle-button {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.toggle-menu-items {
+  position: absolute;
+  margin-top: 60px;
+  visibility: hidden;
+}
+
+.toggle-menu-items ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  width: 275px;
+  background-color: lightgrey;
+}
+
+.toggle-menu-items ul li {
+  width: 240px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 3px;
+  padding: 15px 15px 15px 20px;
+  cursor: pointer;
+}
+
+.toggle-button-home {
+  background-color: lightgray;
+}
+
+.toggle-button-red {
+  background-color: red;
+}
+
+.toggle-button-orange {
+  background-color: orange;
+}
+
+.toggle-button-purple {
+  background-color: purple;
+}
+
+.toggle-button-green {
+  background-color: green;
+}
+
+.toggle-menu-items ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  color: black;
+}
+
+.toggle-menu-items.active {
+  visibility: visible;
+}
